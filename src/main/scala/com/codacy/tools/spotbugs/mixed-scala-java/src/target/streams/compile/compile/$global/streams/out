@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/pedroamaral/Documents/codacy-spotbugs/src/main/resources/docs/multiple-tests/mixed-scala-java/src/src/main/java/codacy/test/Thing.scala:4:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mpublic class Thing {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

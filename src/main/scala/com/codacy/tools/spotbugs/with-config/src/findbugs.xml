@@ -1,0 +1,5 @@
+<FindBugsFilter>
+    <Match>
+        <Bug pattern="PREDICTABLE_RANDOM" />
+    </Match>
+</FindBugsFilter>

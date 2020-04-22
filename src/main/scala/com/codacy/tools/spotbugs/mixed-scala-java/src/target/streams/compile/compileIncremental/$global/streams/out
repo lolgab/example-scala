@@ -1,0 +1,46 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(/Users/pedroamaral/Documents/codacy-spotbugs/src/main/resources/docs/multiple-tests/only-scala/src/src/main/scala/codacy/test/PredictableRandom.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/Users/pedroamaral/Documents/codacy-spotbugs/src/main/resources/docs/multiple-tests/mixed-scala-java/src/src/main/scala/codacy/test/PredictableRandom.scala, /Users/pedroamaral/Documents/codacy-spotbugs/src/main/resources/docs/multiple-tests/mixed-scala-java/src/src/main/java/codacy/test/Thing.java)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(PredictableRandom)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 2 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source and 1 Java source to /Users/pedroamaral/Documents/codacy-spotbugs/src/main/resources/docs/multiple-tests/mixed-scala-java/src/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.7[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 375220ee for Scala compiler version 2.12.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/classes:/Users/pedroamaral/.sbt/boot/scala-2.12.7/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/pedroamaral/Documents/codacy-spotbugs/src/main/resources/docs/multiple-tests/mixed-scala-java/src/target/scala-2.12/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 3.281198656 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mAttempting to call com.sun.tools.javac.api.JavacTool@329a10fc directly...[0m
+[0m[[0m[0mdebug[0m] [0m[0mJava compilation took 0.585973643 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mJava analysis took 0.053747221 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mJava compilation + analysis took 0.645121315 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from codacy.test.Thing...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(codacy.test.Thing)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(codacy.test.Thing)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(codacy.test.Thing,ModifiedNames(changes = UsedName(getClass,[Default]), UsedName(equals,[Default]), UsedName(hashCode,[Default]), UsedName(codacy;test;Thing;init;,[Default]), UsedName(doThing,[Default]), UsedName(toString,[Default]), UsedName(wait,[Default]), UsedName(Thing,[Default]), UsedName(notify,[Default]), UsedName(notifyAll,[Default]))) invalidates 1 classes due to The codacy.test.Thing has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(getClass,[Default]), UsedName(equals,[Default]), UsedName(hashCode,[Default]), UsedName(codacy;test;Thing;init;,[Default]), UsedName(doThing,[Default]), UsedName(toString,[Default]), UsedName(wait,[Default]), UsedName(Thing,[Default]), UsedName(notify,[Default]), UsedName(notifyAll,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(codacy.test.Thing)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m

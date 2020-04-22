@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<checkstyle version="1.5">
+    <file name="PredictableRandom.scala">
+        <error source="PREDICTABLE_RANDOM_SCALA" line="6" message="This Scala random generator (scala.util.Random.nextInt()) is predictable" severity="error" />
+    </file>
+    <file name="PredictableRandom.scala">
+        <error source="TBP_TRISTATE_BOOLEAN_PATTERN" line="8" message="Method PredictableRandom$.generateSecretToken() returns null for Boolean type" severity="info" />
+    </file>
+    <file name="PredictableRandom.scala">
+        <error source="NP_BOOLEAN_RETURN_NULL" line="8" message="PredictableRandom$.generateSecretToken() has Boolean return type and returns explicit null" severity="warning" />
+    </file>
+</checkstyle>

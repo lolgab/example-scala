@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<checkstyle version="1.5">
+    <file name="PredictableRandom.scala">
+        <error source="PREDICTABLE_RANDOM_SCALA" line="6" message="This Scala random generator (scala.util.Random.nextInt()) is predictable" severity="error" />
+    </file>
+</checkstyle>

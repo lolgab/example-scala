@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<checkstyle version="1.5">
+    <file name="JdbcDriverConnection.java">
+        <error source="PREDICTABLE_RANDOM" line="32" message="This random generator (java.util.Random) is predictable" severity="error" />
+    </file>
+</checkstyle>
